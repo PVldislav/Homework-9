@@ -66,15 +66,18 @@ body {
 .button {
     padding: 24px 55px;
     border: none;
-    background: #34547A;
+    background: #6c9dda;
     color: #fff;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     cursor: pointer;
+    transition: .5s, 2s;
+    transition-property: background-color, color;
 }
 
 .button:hover, .button:focus {
-    background: #4b74a5;
+    background-color: red;
+    color: #000;
 }
 
 .about {
@@ -160,6 +163,7 @@ body {
 
 .video__player {
     display: block;
+    width: 100%
 }
 
 .video__play {
